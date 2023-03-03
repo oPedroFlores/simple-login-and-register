@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div class="div-bg">
+        <div class="div-register">
+
+            <div class="div-titulo">
+                <p class="p-register">Registrar</p>
+            </div>
+
+            <div class="div-inputs">
+
+                <div class="input-box">
+                    <input class="input-login" type="text" required="required">
+                    <span class>Nome de usuário...</span>
+                </div>
+
+                <div class="input-box date-input">
+                    <input class="input-login" type="date" required="required">
+                    <span>Data de nascimento</span>
+                </div>
+
+                <div class="input-box" id="email-input">
+                    <input class="input-login" type="email" required="required" id="email">
+                    <span >Email...</span>
+                    <span id="email-invalido"></span>
+                </div>
+
+                <div class="input-box" id="email-input2">
+                    <input class="input-login" type="email" required="required" id="email2">
+                    <span>Confirme o email...</span>
+                    <span id="email-invalido2"></span>
+                </div>
+
+                <div class="input-box" id="senha-input">
+                    <input class="input-login" type="password" required="required" id="pass">
+                    <span>Senha...</span>
+                    <span id="senha-invalida"></span>
+                </div>
+
+                <div class="input-box" id="senha-input2">
+                    <input class="input-login" type="password" required="required" id="pass2">
+                    <span>Confirme a senha...</span>
+                    <span id="senha-invalida2"></span>
+                </div>
+
+                <button class="button-login">
+                    <span class="circle">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Continuar</span>
+                </button>
+
+                <div class="opcoes-logar">
+                    <p class="text-register">Já possui uma conta? <a href="/html/login.html" class="button-logar">Faça o
+                            login aqui</a></p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="../js/register.js"></script>
+
+</body>
+
+</html>
